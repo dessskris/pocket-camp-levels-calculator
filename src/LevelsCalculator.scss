@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 200px;
+
+  .MuiFormControl-root {
+    margin: 10px;
+  }
+}

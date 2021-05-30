@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Animal Crossing: Pocket Camp - Friendship Levels Calculator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Have you ever found yourself stuck on a Happy Homeroom class because you can't craft a furniture? Look it up on the [ACPC Wiki](https://animalcrossingpocketcamp.fandom.com/wiki) and it turns out you have to reach Level 15 Friendship with a villager and start their Special Request.
+
+Fortunately you have plenty of snacks to give them, but how many do you need?
+
+Let us help you calculate it below!
 
 ## Available Scripts
 
