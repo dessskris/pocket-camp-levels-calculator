@@ -11,6 +11,10 @@ function App() {
       <p>Fortunately you have plenty of snacks to give them, but how many do you need?</p>
       <p>Let us help you calculate it below!</p>
       <LevelsCalculator />
+      <div className="footer">
+        <p>Developed by Desy Kristianti <a href="https://twitter.com/dessskris">@dessskris</a></p>
+        <p>Friendship Levels Points Source: <a href="https://animalcrossingpocketcamp.fandom.com/wiki/Villagers#Friendship_Levels">ACPC Wiki</a></p>
+      </div>
     </div>
   );
 }
