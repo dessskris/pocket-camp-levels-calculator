@@ -12,7 +12,11 @@ export const LevelsCalculator = () => {
   const [reqPoints, setReqPoints] = useState();
 
   const calculate = () => {
-    const pointsSoFar = levels.totalPriorFriendshipPoints[parseInt(fromLevel)] + parseInt(pointsNext);
+    if (fromLevel >= toLevel) {
+      setReqPoints('0');
+      return;
+    }
+    const pointsSoFar = levels.totalPriorFriendshipPoints[parseInt(fromLevel) + 1] - parseInt(pointsNext);
     const pointsTarget = levels.totalPriorFriendshipPoints[parseInt(toLevel)];
     const result = pointsTarget - pointsSoFar;
     setReqPoints(result.toString());
