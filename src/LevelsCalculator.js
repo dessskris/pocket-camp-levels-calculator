@@ -12,7 +12,7 @@ export const LevelsCalculator = () => {
   const [reqPoints, setReqPoints] = useState();
 
   const calculate = () => {
-    if (fromLevel >= toLevel) {
+    if (parseInt(fromLevel) >= parseInt(toLevel)) {
       setReqPoints('0');
       return;
     }
@@ -43,7 +43,7 @@ export const LevelsCalculator = () => {
       <FormControl>
         <FormLabel>To Level:</FormLabel>
         <RadioGroup
-          aria-label="to level"
+          aria-label="To Level:"
           name="to-level"
           value={toLevel}
           onChange={(e) => setToLevel(e.target.value)}>
