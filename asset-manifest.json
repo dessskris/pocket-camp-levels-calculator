@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pocket-camp-levels-calculator/static/css/main.8ce28cf6.chunk.css",
-    "main.js": "/pocket-camp-levels-calculator/static/js/main.1600c7f6.chunk.js",
-    "main.js.map": "/pocket-camp-levels-calculator/static/js/main.1600c7f6.chunk.js.map",
+    "main.js": "/pocket-camp-levels-calculator/static/js/main.2fe76c05.chunk.js",
+    "main.js.map": "/pocket-camp-levels-calculator/static/js/main.2fe76c05.chunk.js.map",
     "runtime-main.js": "/pocket-camp-levels-calculator/static/js/runtime-main.84d1b53b.js",
     "runtime-main.js.map": "/pocket-camp-levels-calculator/static/js/runtime-main.84d1b53b.js.map",
     "static/js/2.6c7db7ea.chunk.js": "/pocket-camp-levels-calculator/static/js/2.6c7db7ea.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.84d1b53b.js",
     "static/js/2.6c7db7ea.chunk.js",
     "static/css/main.8ce28cf6.chunk.css",
-    "static/js/main.1600c7f6.chunk.js"
+    "static/js/main.2fe76c05.chunk.js"
   ]
 }
